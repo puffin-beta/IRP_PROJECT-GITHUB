@@ -1,0 +1,34 @@
+body{
+	background-color: #e0e0e0;
+}
+#gamescreen{
+	position: relative;
+	width: 900px;
+	height: 400px;
+	margin: 40px auto;
+	border: 2px solid black;
+	background-color: #fff;
+}
+#player{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	left: 10px;
+	bottom: 50%;
+}
+.enemy{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	right: 10px;
+	bottom: 50%;
+}
+.pencil{
+	position: absolute;
+	width: 40px;
+	height: 5px;
+	background-color: blue;
+	left: 50px;
+}

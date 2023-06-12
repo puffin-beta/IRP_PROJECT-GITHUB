@@ -1,0 +1,48 @@
+body{
+	background-color: #e0e0e0;
+	font-family: verdana;
+}
+.backbutton{
+	width: 200px;
+	height: 100px;
+	background-color: cyan;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.backbutton a{
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	position: relative;
+	top: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.backbutton:hover{
+	background-color: #00cccc;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.backbutton:hover a{
+	font-size: 25px;
+	transition: all 0.2s;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+}
+img{
+	width: calc(100% / 3);
+	height: calc(100% / 6);
+	display: block;
+	margin: auto;
+}
+figcaption{
+	text-align: center;
+}
